@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'RM';
+    src: url('../assets/fonts/get_schwifty.ttf');
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px solid #000;
+}
+
+.input-id {
+    font-size: 1.5rem;
+}
+
+.search-btn {
+    font-size: 1.5rem;
+    padding: 0 1em;
+    cursor: pointer;
+}
