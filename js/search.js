@@ -15,4 +15,6 @@ btnSearch.addEventListener("click", (e) => {
     .then((data) => {
       characterContainer.innerHTML = data.results.map((char) => drawCharacter(char)).join("");
     });
+    document.querySelector('audio').play();
 });
+
