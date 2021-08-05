@@ -4,7 +4,11 @@
 }
 
 body {
-  background-color: #d3d3d3;
+  background-image: url('../assets/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-color: #d3d3d3; */
 }
 
 /* Search Styles */
