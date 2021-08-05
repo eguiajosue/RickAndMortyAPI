@@ -3,40 +3,56 @@
   padding: 0;
 }
 
+body {
+  background-color: #a0a0a0;
+}
+
+/* Search Styles */
+header {
+  padding: 1.5em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search-input {
+  margin: 0 1em;
+  padding: 1em;
+  width: 50em;
+  border: none;
+}
+
+.search-btn {
+  padding: 1em;
+  width: 20em;
+  border: none;
+}
+
 /* Navigation Styles */
 .pagination {
-    display: inline-block;
-  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation {
+  margin: 0 1em;
+  width: 4em;
+  height: 4em;
   color: #000;
   float: left;
-  padding: 8px 16px;
   border: 1px solid #ddd;
   cursor: pointer;
-  border-radius: 0%;
+  border-radius: 50%;
 }
 
 .navigation:hover {
   background-color: #ddd;
 }
-
-/* Search Styles */
-header {
-    padding: 1.5em;
-}
-
-form {
-    width: 100%;
-}
-
-.search-input {
-}
-
-.search-btn {
-}
-
 
 /* Container Styles */
 .container {
@@ -49,9 +65,10 @@ form {
 
 /* Character Card Styles */
 .character-card {
-  width: 20em;
+  width: 17em;
   margin-top: 2em;
-  box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.86);
+  background-color: #fff;
+  box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.86);
 }
 
 .character-name {
@@ -62,6 +79,7 @@ form {
 }
 
 .character-img {
+  width: 100%;
   display: block;
   margin: 0 auto;
   border-radius: 50%;
