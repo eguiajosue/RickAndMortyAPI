@@ -1,4 +1,4 @@
 # RickAndMortyAPI
 My first time using API Fetch 
 
-![image](https://user-images.githubusercontent.com/58798329/128421694-fff27053-b4f2-4bae-a845-8ba0f3ea9b6e.png)
+![image](https://user-images.githubusercontent.com/58798329/128431348-3fb50ad2-a1de-41d4-8417-14be694623e8.png)
