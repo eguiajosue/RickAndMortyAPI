@@ -5,9 +5,9 @@ element.addEventListener("submit", (event) => {
   event.preventDefault();
 });
 
-characterContainer = document.querySelector(".container");
-btnSearch = document.querySelector(".search-btn");
-searchInput = document.querySelector(".search-input");
+const characterContainer = document.querySelector(".container");
+const btnSearch = document.querySelector(".search-btn");
+const searchInput = document.querySelector(".search-input");
 
 btnSearch.addEventListener("click", (e) => {
   fetch(`https://rickandmortyapi.com/api/character/?name=${searchInput.value}`)
