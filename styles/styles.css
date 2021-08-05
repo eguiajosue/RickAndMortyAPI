@@ -1,29 +1,21 @@
-@font-face {
-    font-family: 'RM';
-    src: url('../assets/fonts/get_schwifty.ttf');
-}
-
-
-
 * {
     margin: 0;
     padding: 0;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    border-bottom: 1px solid #000;
+.pagination {
+    display: inline-block;
 }
 
-.input-id {
-    font-size: 1.5rem;
-}
-
-.search-btn {
-    font-size: 1.5rem;
-    padding: 0 1em;
+.navigation {
+    color: #000;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
     cursor: pointer;
+}
+
+.navigation:hover {
+    background-color: #ddd;
 }
